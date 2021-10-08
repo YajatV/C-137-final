@@ -1,0 +1,48 @@
+body{
+background-size:cover;
+}
+
+.heading{
+    font-size:30px;
+    width:100%;
+    margin:0px;
+    box-shadow: 5px 5px 5px white;
+}
+
+#start,#stop,#pause{
+    font-size:18px;
+    animation-name: example;
+    animation-duration: 3s;
+    margin-left:15px;
+}
+@keyframes example {
+    0%{top:0px;}
+    50%{top:20px;}
+    100%{top:0px;}
+}
+
+#number_of_objects{
+    font-size:20px;
+}
+
+canvas{
+    border:2px solid white;
+    border-radius: 10px;
+    margin-top:130px;
+    box-shadow:5px 5px 5px gray;
+    background-color: white;
+}
+
+.copy_right_footer{
+    position:fixed;
+    background-color:gray;
+    bottom:0;
+    color:white;
+    width:100%;
+    text-align: center;
+    line-height: 2;
+}
+
+#slider{
+width:50%;
+}
